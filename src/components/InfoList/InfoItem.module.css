@@ -51,13 +51,10 @@
   border-bottom: 3px solid var(--bg1);
   transition: all 0.4s;
 }
-.cover:hover {
-  border-radius: 50%;
-}
 .cover::before {
   position: absolute;
   content: "";
-  top: 110%;
+  top: 105%;
   left: 30%;
   width: 0.5em;
   box-shadow: 0 0 30px 17px #48668577;
@@ -73,6 +70,10 @@
   height: 150%;
   background: radial-gradient(at bottom, #48668533, transparent, transparent);
   z-index: 1;
+}
+
+.li:hover .cover {
+  border-radius: 50%;
 }
 
 .content {

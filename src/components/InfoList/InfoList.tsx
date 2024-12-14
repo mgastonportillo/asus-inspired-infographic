@@ -1,4 +1,4 @@
-import InfoItem from "../InfoItem/InfoItem";
+import InfoItem from "./InfoItem";
 import { data } from "../../data/infoData";
 import styles from "./InfoList.module.css";
 

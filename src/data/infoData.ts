@@ -1,7 +1,7 @@
 export const data = [
   {
     title: "Do X",
-    description: "X is the new name for Twitter",
+    description: "X is the new Twitter",
   },
   {
     title: "Then do Y",
@@ -9,6 +9,6 @@ export const data = [
   },
   {
     title: "And enjoy Z",
-    description: "Zen mode once you're done",
+    description: "Zzzleep as a reward",
   },
 ];
